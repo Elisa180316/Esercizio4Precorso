@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#main {
+    width: 100%;
+}
+
+#content {
+    height: 100%;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon {
+    padding: 2.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.sidebar-icon p {
+    margin: 0;
+
+}
+
+i, p {
+font-size: 1em;
+display: flex;
+padding: 0 0. 3em;
+}
+
+
+#topbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+
+}
+
+#logo {
+    height: 50%;
+}
+
+#search-wrapper {
+    display: flex;
+    height: 50%;
+}
+button {
+    height: 100%;
+    
+}
+#topbar-icons, i  {
+    display: flex;
+    
+    padding: 0 0 0. 1.5em;
+    float:left; 
+    width:23%;
+    font-size: 1.5em;
+
+   
+}
+
+#mic-icon {
+    font-size: 1.4em;
+    margin: 0 0 0 0.5em;
+}
+
+#content {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+.epicodelogo h6, figcaption {
+   float:inline-start;
+  align-self:stretch ;
+   display:flex;
+   flex-wrap: wrap;
+   height: 2.5em;
+   justify-content:first baseline;
+   padding:1 1 1 1;
+         
+}
+
+figcaption {
+    align-items:center
+}
+
+.epicodelogo {
+padding:1 1 1 1;
+}
+
+h6 {
+    margin-left: 20px;
+}
+
+
